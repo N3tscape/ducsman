@@ -26,7 +26,7 @@ function displayArticles(articles) {
         card.className ="mx-3 flex flex-col bg-white border border-1 rounded-lg shadow-xl sm:shrink-0 sm:grow sm:basis-0 mb-10";    
         card.innerHTML = `
             <a href="#!">
-                <img class="rounded-t" src="${article.image}" alt="article image"
+                <img class="rounded-t" width="500" height="500" src="${article.image}" alt="article image"
                     onmouseover="this.src='${article.hover}'" 
                     onmouseout="this.src='${article.image}'"/>
             </a>
