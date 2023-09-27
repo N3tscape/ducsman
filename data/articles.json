@@ -1,0 +1,76 @@
+{
+    "articles": [
+      {
+        "nom": "Costume en laine",
+        "prix": 199.99,
+        "designation": "Costume élégant en laine pour hommes",
+        "image": "img/costumeenlaine.webp",
+        "hover": "img/hcostumeenlaine.webp"
+      },
+      {
+        "nom": "Robe de soiree",
+        "prix": 149.99,
+        "designation": "Robe de soirée longue pour femmes",
+        "image": "img/robedesoiree.webp",
+        "hover": "img/hrobedesoiree.webp"
+      },
+      {
+        "nom": "Chemise en coton",
+        "prix": 49.99,
+        "designation": "Chemise décontractée en coton pour hommes",
+        "image": "img/chemiseencoton.webp",
+        "hover": "img/hchemiseencoton.webp"
+      },
+      {
+        "nom": "Jupe plissée",
+        "prix": 79.99,
+        "designation": "Jupe plissée midi pour femmes",
+        "image": "img/jupeplissée.webp",
+        "hover": "img/hjupeplissee.webp"
+      },
+      {
+        "nom": "Veste en tweed",
+        "prix": 129.99,
+        "designation": "Veste en tweed pour hommes",
+        "image": "img/vesteentweed.webp",
+        "hover": "img/hvesteentweed.webp"
+
+      },
+      {
+        "nom": "Pantalon de costume",
+        "prix": 79.99,
+        "designation": "Pantalon de costume ajusté pour hommes",
+        "image": "img/pantalondecostume.webp",
+        "hover": "img/hpantalondecostume.webp"
+      },
+      {
+        "nom": "Blouse en soie",
+        "prix": 89.99,
+        "designation": "Blouse en soie légère pour femmes",
+        "image": "img/blouseensoie.webp",
+        "hover": "img/hblouseensoie.webp"
+      },
+      {
+        "nom": "Manteau en laine",
+        "prix": 179.99,
+        "designation": "Manteau en laine pour femmes",
+        "image": "img/manteauenlaine.webp",
+        "hover": "img/hmanteauenlaine.webp"
+      },
+      {
+        "nom": "Cravate en soie",
+        "prix": 29.99,
+        "designation": "Cravate en soie haut de gamme",
+        "image": "img/cravateensoie.webp",
+        "hover": "img/hcravateensoie.webp"
+      },
+      {
+        "nom": "Chaussures en cuir",
+        "prix": 119.99,
+        "designation": "Chaussures en cuir pour hommes",
+        "image": "img/chaussuresencuir.webp",
+        "hover": "img/hchaussuresencuir.webp"
+      }
+    ]
+  }
+  

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ducsman</title>
+
+    <script src="https://kit.fontawesome.com/adb1978e16.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="bouton-laces.png" sizes="96x96" type="image/ico">
+    <link href="css/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar -->
+        <nav
+            class="sticky top-0 z-10 bg-ponyBrown py-2 text-neutral-500 shadow-xl hover:text-neutral-700 focus:text-neutral-700 lg:py-4">
+            <div class="flex w-full flex-wrap items-center justify-between px-3">
+                <a class="font-italianno font-medium text-5xl text-horseBrown" href="#!">Ducsman</a>
+                <div class="ml-5 mr-10 flex justify-between">
+                    <a href="#!">
+                        <i class="fa-solid fa-magnifying-glass fa-xl text-horseBrown mx-2"></i>
+                    </a>
+                    <a href="#!">
+                        <i class="fa-regular fa-user fa-xl text-horseBrown mx-2"></i>
+                    </a>
+                    <a href="#!">
+                        <i class="fa-regular fa-heart fa-xl text-horseBrown mx-2"></i>
+                    </a>
+                    <a href="#!">
+                        <i class="fa-solid fa-cart-shopping fa-xl text-horseBrown mx-2"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Jumbotron -->
+        <section>
+            <div class="relative overflow-hidden bg-cover bg-no-repeat" style="
+                        background-position: 50%;
+                        background-image: url('img/tailor-jumbotron.webp');
+                        height: 500px;
+                ">
+                <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+                    style="background: rgba(0, 0, 0, 0.5);">
+                    <div class="flex h-full items-center justify-center">
+                        <div class="px-6 text-center text-white md:px-12">
+                            <h1 class="text-5xl font-amiri font-bold tracking-tight md:text-6xl xl:text-7xl">
+                                Sapés comme jamais.
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Jumbotron -->
+    </header>
+
+    <main>
+        <div class="m-10 flex flex-wrap items-center justify-between">
+            <!-- Breadcrumb -->
+            <nav class="rounded-md font-semibold text-xl font-maitree">
+                <ol class="list-reset flex">
+                    <li>
+                        <a href="#!"
+                            class="text-horseBrown transition duration-150 ease-in-out hover:text-horseBrown/80">Accueil</a>
+                    </li>
+                    <li>
+                        <span class="mx-2 text-neutral-500">></span>
+                    </li>
+                    <li>
+                        <a href="#!"
+                            class="text-horseBrown transition duration-150 ease-in-out hover:text-horseBrown/80">Homme</a>
+                    </li>
+                    <li>
+                        <span class="mx-2 text-neutral-500">></span>
+                    </li>
+                    <li class="text-neutral-500 underline">S.M</li>
+                </ol>
+            </nav>
+            <!-- Breadcrumb -->
+
+            <div class="flex flex-wrap items-stretch">
+                <input type="search"
+                    class="m-0 block w-52 min-w-0 flex-auto rounded border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-non"
+                    placeholder="Recherche" id="searchInput" aria-label="Search">
+
+                <!--Search icon-->
+                <span
+                    class="input-group-text flex items-center whitespace-nowrap rounded px-3 py-1.5 text-center text-base font-normal text-neutral-700 dark:text-neutral-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                        <path fill-rule="evenodd"
+                            d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div id="articles"
+            class="grid-cols-1 sm:grid sm:grid-cols-2 md:grid-flow-col-3 lg:grid-cols-4 mx-10 gap-x-8 gap-y-4">
+        </div>
+        <div id="filteredArticles"
+            class="grid-cols-1 sm:grid sm:grid-cols-2 md:grid-flow-col-3 lg:grid-cols-4 mx-10 gap-x-8 gap-y-4">
+        </div>
+        <!-- Cards -->
+    </main>
+
+    <footer class="w-full h-auto mt-16">
+        <div
+            class="w-full h-3/4 px-4 py-4 bg-ponyBrown flex flex-row flex-wrap justify-between content-start md:py-10 md:px-10 md:h-1/2">
+            <ul class="w-6/12 mt-10 md:mt-5 sm:w-4/12 md:w-3/12 lg:2/12">
+                <li class="font-amiri text-lg lg:text-2xl text-horseBrown">Aide & Contact</li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Questions
+                        fréquentes</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Essayez
+                        d'abord, payez après</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Retour depuis
+                        votre boîte aux lettres</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Moyens de
+                        paiement</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Retour &
+                        remboursements</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">L'application
+                        Ducsman</a></li>
+            </ul>
+
+            <ul class="w-6/12 mt-10 md:mt-5 sm:w-4/12 md:w-3/12 lg:2/12">
+                <li class="font-amiri text-lg lg:text-2xl text-horseBrown">Modes de livraison</li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Livraison 24h
+                        en point retrait</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Suivre mon
+                        colis</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Guide des
+                        tailles</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">S'inscrire à
+                        la newsletter</a></li>
+            </ul>
+
+            <ul class="w-6/12 mt-10 md:mt-5 sm:w-4/12 md:w-3/12 lg:2/12">
+                <li class="font-amiri text-lg lg:text-2xl text-horseBrown">Chèques cadeaux</li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Offrir une
+                        carte cadeau</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Utiliser une
+                        carte cadeau</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Chèques
+                        cadeaux d'entreprise</a></li>
+            </ul>
+
+            <ul class="w-6/12 mt-10 md:mt-5 sm:w-4/12 md:w-3/12 lg:2/12">
+                <li class="flex justify-start content-center font-amiri text-lg lg:text-2xl text-horseBrown">Moyens de
+                    paiement</li>
+                <li>
+                    <i class="fa-brands fa-cc-visa text-2xl lg:text-4xl text-blue-800"></i>
+                    <i class="fa-brands fa-cc-mastercard text-2xl lg:text-4xl text-gray-400 ml-7"></i>
+                    <i class="fa-brands fa-cc-paypal text-2xl lg:text-4xl text-blue-950 ml-7"></i>
+                </li>
+            </ul>
+
+            <ul class="w-6/12 mt-10 md:mt-5 sm:w-4/12 md:w-3/12 lg:2/12">
+                <li class="font-amiri text-lg lg:text-2xl text-horseBrown">Shopping en ligne</li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Satisfait ou
+                        remboursé sous 30 jours</a></li>
+            </ul>
+
+            <ul class="w-6/12 mt-10 md:mt-5 sm:w-4/12 md:w-3/12 lg:2/12">
+                <li class="font-amiri text-lg lg:text-2xl text-horseBrown">Ducsman</li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Emplois</a>
+                </li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Presse</a>
+                </li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Questions
+                        marketing</a></li>
+            </ul>
+
+            <ul class="w-6/12 mt-10 md:mt-5 sm:w-4/12 md:w-3/12 lg:2/12">
+                <li class="font-amiri text-lg lg:text-2xl text-horseBrown">Nos services</li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Programme
+                        partenaire</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Connected
+                        Retail</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">Ducsman
+                        Marketing Services</a></li>
+                <li class="font-amiri text-sm lg:text-lg hover:text-studGrey hover:underline"><a href="#!">En savoir
+                        plus</a></li>
+            </ul>
+        </div>
+
+        <div class="w-full h-40 bg-black flex flex-row">
+            <div class="w-11/12 sm:w-8/12 h-auto flex flex-row flex-wrap">
+                <a href="#!"
+                    class="font-amiri text-white p-4 sm:p-5 text-xs sm:text-sm md:text-lg hover:underline">Mentions
+                    légales</a>
+                <a href="#!"
+                    class="font-amiri text-white p-4 sm:p-5 text-xs sm:text-sm md:text-lg hover:underline">Protection
+                    des données</a>
+                <a href="#!"
+                    class="font-amiri text-white p-4 sm:p-5 text-xs sm:text-sm md:text-lg hover:underline">CGV</a>
+                <a href="#!"
+                    class="font-amiri text-white p-4 sm:p-5 text-xs sm:text-sm md:text-lg hover:underline">*Conditions
+                    des offres</a>
+                <a href="#!"
+                    class="font-amiri text-white p-4 sm:p-5 text-xs sm:text-sm md:text-lg hover:underline">Paramètres
+                    des données</a>
+            </div>
+            <a href="#!"
+                class="font-amiri text-white flex flex-col justify-center content-center text-center p-5 text-sm lg:text-lg">Application
+                Ducsman :<i
+                    class="fa-brands fa-google-play text-center mt-3 hover:scale-150 hover:transition-all hover:ease-in-out"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/tw-elements.umd.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
